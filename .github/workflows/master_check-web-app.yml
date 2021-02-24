@@ -7,7 +7,6 @@ on:
   push:
     branches:
       - master
-  workflow_dispatch:
 
 jobs:
   build-and-deploy:
@@ -32,5 +31,5 @@ jobs:
       with:
         app-name: 'check-web-app'
         slot-name: 'production'
-        publish-profile: ${{ secrets.AzureAppService_PublishProfile_9f8f07d90d794a6784bc0bf533e6ec5f }}
+        publish-profile: ${{ secrets.AzureAppService_PublishProfile_019b88c04be948e492343bd3a09ab3b9 }}
         package: ${{env.DOTNET_ROOT}}/myapp 
