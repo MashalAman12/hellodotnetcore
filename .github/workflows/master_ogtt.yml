@@ -52,5 +52,5 @@ jobs:
       with:
         app-name: 'ogtt'
         slot-name: 'production'
-        publish-profile: ${{ secrets.AzureAppService_PublishProfile_0aabda8cd44949d49b50e6a6d981ba4b }}
+        publish-profile: ${{ secrets.AzureAppService_PublishProfile_801f0fe65d154e97a3097912300b84d8 }}
         package: .
