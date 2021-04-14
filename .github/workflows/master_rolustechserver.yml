@@ -52,5 +52,5 @@ jobs:
       with:
         app-name: 'rolustechserver'
         slot-name: 'production'
-        publish-profile: ${{ secrets.AzureAppService_PublishProfile_e9c643d6d3b8484680f8939654cb50db }}
+        publish-profile: ${{ secrets.AzureAppService_PublishProfile_5aeece918b6c468c89353481a45c84ac }}
         package: .
